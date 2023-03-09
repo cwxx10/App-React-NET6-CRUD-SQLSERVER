@@ -1,10 +1,11 @@
-
+using App_React_NET6_CRUD.Models;   
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<DbreactnetVendasContext>();
 
 var app = builder.Build();
 
