@@ -6,11 +6,11 @@ namespace App_React_NET6_CRUD.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProdutosController : ControllerBase
+    public class ProdutoController : ControllerBase
     {
         private readonly DbreactnetVendasContext _db;
 
-        public ProdutosController(DbreactnetVendasContext db)
+        public ProdutoController(DbreactnetVendasContext db)
         {
             _db = db;
         }
